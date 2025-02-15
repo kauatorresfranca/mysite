@@ -5,7 +5,7 @@ from blog.factories import PostFactory
 
 @pytest.fixture
 def post_published():
-    return PostFactory(title="pyteste with factory")
+    return PostFactory(title="pytest with factory")
 
 
 @pytest.mark.django_db
